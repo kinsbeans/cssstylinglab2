@@ -1,0 +1,127 @@
+h1, h2, h3, p, ul, li {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 0;
+  }
+
+  body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fff;
+  }
+  
+
+  header {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    text-align: center;
+    background-color: #0073e6;
+    padding: 10px;
+    margin-top: 22px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+  nav ul {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+article {
+    flex: 2;
+    margin-right: 20px;
+    background-color: #ffcc24;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+section:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+  
+aside {
+    flex: 1;
+    background-color: #64e0f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .color-example h3 {
+    color: #0073e6;
+  }
+  
+
+  .color-example p {
+    background-color: #f0d98c;;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .typography-example p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+  }
+  
+
+  .typography-example p {
+    text-align: right;
+    line-height: 1.6;
+  }
+  
+  #uniqueDiv {
+    margin: 10px;
+    background-color: #64b5f6;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info {
+    border: 2px solid #4caf50;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ffcc24;
+    color: #202020;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  
